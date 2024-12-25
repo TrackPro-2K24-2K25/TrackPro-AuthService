@@ -94,6 +94,7 @@ public class AuthenticationService {
 //        utilisateurRepository.save(utilisateur);
 //        return true;
 //    }
+    // just to check if the user exists
 
     private void saveUserToken(AppUser user, String jwtToken) {
         var token = Token.builder()
